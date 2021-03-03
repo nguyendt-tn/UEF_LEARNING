@@ -1,0 +1,86 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    height: 35%;
+}  
+.head h1{
+    font-size: 20px;
+    margin-right: .4rem;
+    color: #2A2AC0;
+}
+.head span{
+    font-size: 19px;
+    color: #2A2AC0;
+}
+.logo{
+    height: 20%;
+}
+.logo h1{
+    font-size: 24px;
+}
+.logo span{
+    font-size: 18px;
+}
+.sign{
+    height: 35%;
+}
+.sign .sign-1{
+    width: 100%;
+    height: 20%;
+}
+.sign .sign-1 i{
+    position: absolute;
+    left: 15%;
+}
+.sign .sign-1 input{
+    border: 1px solid rgba(163, 186, 217, 0.2);
+    width: 80%;
+    padding: 5%;
+    background: rgba(163, 186, 217, 0.2);
+    border-radius: 7px;
+    font-size: 18px;
+    outline: none;
+    text-align: center; 
+}
+.sign .sign-or{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.btn-blue{
+    background: linear-gradient(to right,#4481eb,#04befe,#4481eb);
+    background-size: 200%;
+    outline: none;
+    border: 0;
+    width: 80%;
+    height: 90%;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 90px;
+}
+.btn-green{
+    background: linear-gradient(to right,#43e97b,#38f9d7,#43e97b);
+    background-size: 200%;
+    outline: none;
+    border: 0;
+    width: 80%;
+    height: 90%;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 90px;
+}
+a{
+    text-decoration: none;
+}
+.policy{
+    height: 10%;
+}
+.policy span{
+    font-size: 16px;
+}
+.policy span a{
+    color: #2A2AC0;
+}

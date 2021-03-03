@@ -1,0 +1,100 @@
+.page-sign-in {
+    width: 100%;
+    background: #1D39C4;
+    position: relative;
+    height: 100vh;
+}
+
+.img-page-sign-in {
+    position: absolute;
+    height: 50%;
+    width: 80%;
+    left: 10%;
+    z-index: 2;
+    top: -4%;
+}
+
+.form-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    top: 40%;
+    height: 60%;
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.12);
+    border-radius: 45px 45px 0 0;
+    background: #FFFFFF;
+}
+
+.form-sign-in {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 10%;
+}
+
+.page-sign-in .form-sign-in div {
+    height: 20%;
+}
+
+.page-sign-in .form-sign-in .account-sign-in input {
+    border: none;
+    width: 100%;
+    padding: 5%;
+    background: rgba(163, 186, 217, 0.2);
+    border-radius: 7px;
+    font-family: workS ans;
+    font-size: 18px;
+}
+
+.page-sign-in .form-sign-in .account-sign-in .pass-word-eye {
+    position: absolute;
+    left: 87.13%;
+    top: 20%;
+}
+
+.page-sign-in .form-sign-in .forget-password {
+    position: absolute;
+    top: 54%;
+    text-align: right;
+    width: 100%;
+}
+
+.page-sign-in .form-sign-in .forget-password a {
+    font-size: 15px;
+    color: #797979;
+}
+
+.page-sign-in .form-sign-in .login a {
+    text-align: center;
+    width: 100%;
+    background: rgba(163, 186, 217, 0.2);
+    padding: 4% 0;
+    display: inline-block;
+    font-family: workSans;
+    font-size: 18px;
+    color: #797979;
+    border-radius: 7px;
+}
+
+.page-sign-in .form-sign-in .login a:hover {
+    outline: none;
+}
+
+.page-sign-in .form-sign-in .login-button {
+    width: 100%;
+    padding: 4%;
+    border: none;
+    background: #3E8BF8;
+    border-radius: 19px;
+    margin-bottom: 20%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: workSans;
+    text-align: center;
+}
+
+.page-sign-in .form-sign-in .login-button:hover {
+    outline: none;
+}

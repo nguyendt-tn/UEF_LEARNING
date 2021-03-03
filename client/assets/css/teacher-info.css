@@ -1,0 +1,141 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* hidden scrollbar*/
+.page-container {
+    background: white;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 12%;
+}
+
+header .tittle-page {
+    font-size: 24px;
+    color: black;
+    padding-top: 9%;
+    width: 85%;
+    margin: 0 auto;
+    font-family: "quickSanBold";
+    display: flex;
+}
+
+.page-content {
+    height: 78%;
+    overflow-y: scroll;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 20px;
+    color: #000000;
+    font-family: 'quickSanBold';
+}
+
+a {
+    color: black;
+}
+
+.colum {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-top,
+.item-bottom,
+.item-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-top img,
+.item-bottom img,
+.item-row img {
+    margin-bottom: 1em;
+}
+
+.item-top {
+    margin-bottom: 2em;
+}
+
+.colum .cl-left,
+.colum .cl-right {
+    width: 47%;
+    text-align: center;
+    height: 100%;
+}
+
+.colum .cl-right {
+    padding-top: 3em;
+}
+
+.colum .cl-left .item-top {
+    height: 40%;
+    background: #F6F9FF;
+    border-radius: 20px;
+    height: 10em;
+}
+
+.colum .cl-left .item-bottom {
+    height: 50%;
+    background: #B5F5EC;
+    border-radius: 20px;
+    height: 13em;
+}
+
+.colum .cl-right .item-top {
+    height: 60%;
+    background: #FFCCC7;
+    border-radius: 20px;
+    height: 13em;
+}
+
+.colum .cl-right .item-bottom {
+    background: #EFDBFF;
+    border-radius: 20px;
+    height: 40%;
+    height: 10em;
+}
+
+.row {
+    margin: 3em 0 3em 0;
+}
+
+.row div {
+    text-align: center;
+    background: #FFF1B8;
+    border-radius: 20px;
+    padding: 1.5em 0;
+}
+
+footer {
+    height: 10%;
+}
+
+footer a {
+    color: #979797;
+}
+
+.menu-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0% 6% 0 7%;
+    border-top: 1px solid rgba(29, 57, 196, 0.16);
+    color: #979797;
+    font-family: "quickSanSemi";
+    font-size: 12px;
+    height: 90%;
+}
+
+.item_menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}

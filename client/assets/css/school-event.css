@@ -1,0 +1,108 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* hidden scrollbar*/
+
+header {
+    height: 30%;
+    background: #1D39C4;
+    border-radius: 0 0 31px 31px;
+    background-repeat: no-repeat;
+}
+
+header .tittle-page {
+    font-size: 24px;
+    color: white;
+    padding-top: 9%;
+    width: 85%;
+    margin: 0 auto;
+    font-family: "quickSanBold";
+    display: flex;
+}
+
+.page-content {
+    height: 80%;
+    position: absolute;
+    overflow-y: scroll;
+    z-index: 2;
+    top: 10%;
+    width: 85%;
+    left: 7.5%;
+    font-family: 'quickSanSemi';
+    padding-top: 10%;
+}
+
+.uef-info {
+    border: 1px solid rgba(29, 57, 196, 0.5);
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: white;
+    padding: 3% 9% 9% 9%;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.news-content {
+    margin: 10% 0;
+    background: #FFFFFF;
+    border: 1px solid rgba(29, 57, 196, 0.5);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+
+.new-title {
+    display: flex;
+    height: 20%;
+    padding: 5% 7%;
+}
+
+.new-title .uef-avatar {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.new-time {
+    font-family: 'quickSanSemi';
+    color: #979797;
+    margin-top: 3%;
+    font-size: 12px;
+}
+
+
+
+footer {
+    height: 10%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    background: white;
+}
+
+footer a {
+    color: #979797;
+}
+
+.menu-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0% 6% 0 7%;
+    border-top: 1px solid rgba(29, 57, 196, 0.16);
+    color: #979797;
+    font-family: "quickSanSemi";
+    font-size: 12px;
+    height: 90%;
+}
+
+.item_menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}

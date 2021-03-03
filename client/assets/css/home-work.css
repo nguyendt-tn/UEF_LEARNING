@@ -1,0 +1,183 @@
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#container {
+    height: 100vh;
+    position:relative;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.hwork{
+    height: 14.287%;
+    color: #FFFFFF;
+}
+.header{
+    margin-left: 1.5rem;
+}
+.header .back{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.header .back h1{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.header .back span{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+}
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:10%; 
+    border-top: 1px solid rgba(29, 57, 196, 0.16); 
+}
+.footer ul {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+.footer ul a li p{
+    margin-top: .4rem;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #979797;
+}
+.homework{
+    height: 68%;
+    background: #1D39C4;
+    border-radius: 0 0 60px 60px;
+
+}
+.homework .teamwork{
+    height: 35%;
+    margin-top: 2rem;
+    width: 100%;
+}
+.homework .teamwork a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.homework .teamwork a img{
+    width: 80%;
+    height: 100%;
+}
+.homework .personal{
+    height: 35%;
+    margin-top: 2rem;
+    width: 100%;
+}
+.homework .personal a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.homework .personal a img{
+    width: 80%;
+    height: 90%;
+}
+.deadline{
+    height: 22%;
+}
+.deadline .note{
+    height: 30%;
+    margin-left: 1.5rem;
+}
+.deadline .note span{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.deadline .list-note{
+    height: 70%;
+    margin-left: 1.5rem;
+}
+.deadline .list-note .note{
+    width: 80%;
+    height: 100%;
+}
+.note-luc{
+    background: #F0F5FF;
+}
+.note-red{
+    background: #FFCCC7;
+}
+.deadline .list-note .note .one-note{
+    width: 40%;
+    height: 80%;
+    border: 1px solid rgba(29, 57, 196, 0.2);
+    box-sizing: border-box;
+    border-radius: 0px 0px 20px 0px;
+    margin-right: 1.75rem;
+    text-align: center;
+}
+.deadline .list-note .note .one-note h1{
+    height: 50%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px; 
+    color: #1D39C4;
+}
+.deadline .list-note .note .one-note span{
+    height: 50%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1D39C4;
+}
+.deadline .list-note .no-note {
+    height: 100%;;background-size: cover;margin-bottom: 1rem;
+}
+.deadline .list-note .no-note span{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #979797;
+}
+.deadline .list-note .next{
+    width: 20%;
+    height: 100%;
+}

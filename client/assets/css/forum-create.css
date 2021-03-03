@@ -1,0 +1,123 @@
+.page-container {
+    background: white;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    align-items: center;
+}
+
+header .tittle-page {
+    font-size: 24px;
+    color: black;
+    width: 85%;
+    margin: 0 auto;
+    font-family: "quickSanBold";
+    display: flex;
+}
+
+header .questions-write {
+    width: 54px;
+    height: 54px;
+    background: rgba(29, 57, 196, 0.09);
+    border-radius: 50%;
+}
+
+.page-content {
+    height: 78%;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 20px;
+    color: #000000;
+    font-family: 'quickSanBold';
+}
+
+.content {
+    border: 1px solid rgba(29, 57, 196, 0.5);
+    border-radius: 41px 0px 40px;
+    padding: 2em;
+    height: 90%;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+}
+
+
+
+.name p {
+    font-family: 'quickSanBold';
+    font-size: 16px;
+    margin-right: 3%;
+}
+
+.name textarea {
+    flex-grow: 1;
+}
+
+.choose-subject {
+    height: 12%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    font-family: 'quickSanBold';
+    align-items: center;
+    color: black;
+    font-size: 16px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    height: 8%;
+}
+
+.btn div {
+    background: #1D39C4;
+    box-shadow: 0px 3px 5px #E9F0FF;
+    border-radius: 10px;
+    width: 66px;
+    height: 36px;
+}
+
+.check {
+    display: none;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+footer {
+    height: 10%;
+}
+
+footer a {
+    color: #979797;
+}
+
+.menu-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0% 6% 0 7%;
+    border-top: 1px solid rgba(29, 57, 196, 0.16);
+    color: #979797;
+    font-family: "quickSanSemi";
+    font-size: 12px;
+    height: 90%;
+}
+
+.item_menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}

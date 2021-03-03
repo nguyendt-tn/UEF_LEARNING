@@ -1,0 +1,97 @@
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#container {
+    height: 100%;
+    position:relative;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header{
+    margin: 0 0.1px;
+    height: 12%;
+    background: #1E90FF;
+}
+.header .head{
+    width: 100%;
+    padding-top: 5%;
+    height: 12%;
+    background: #1E90FF;
+    position: fixed;
+}
+.header .head div h1{
+    font-family: Pacifico;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.header .head div img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.edit-prof{
+    display: flex;
+    overflow: auto hidden;
+    flex-direction: column;
+    padding-top: 10%;
+    overflow-y: scroll;
+    height: 800px;
+    padding-left: 0;
+}
+.avt{
+    width: 100%;
+    height: 20%;
+}
+.edit-prof .content{
+    width: 90%;
+    height: 10%;
+    display: grid;
+    margin-left: 1rem;
+    color: gray;
+}
+.edit-prof .content label{
+    font-family: Quicksand;
+    color: gray;
+}
+.edit-prof .content select, option, input{
+    color: gray;
+}
+.edit-prof .content input{
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0.6rem 1rem 0 0;
+    outline: none;
+    resize: none;
+    border-bottom: solid 1.5px gray;
+    box-sizing: border-box;
+    background: #f0f2f5;
+}

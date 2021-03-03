@@ -1,0 +1,180 @@
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#container {
+    height: 100vh;
+    position:relative;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header{
+    margin-left: 1.5rem;
+}
+.header .back{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.header .back h1{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.header .back span{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+}
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:10%; 
+    border-top: 1px solid rgba(29, 57, 196, 0.16); 
+}
+.footer ul {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+.footer ul a li p{
+    margin-top: .4rem;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #979797;
+}
+.hperson{
+    height: 22.594%;
+    color: #FFFFFF;
+}
+.personal{
+    height: 43%;
+    background: #1D39C4;
+    border-radius: 0 0 60px 60px;
+}
+.personal .subject{
+    width: 100%;
+    height: 15%;
+    margin-top: 1.3rem;
+}
+.personal .subject .select-subject{
+    width: 90%;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.personal .subject .select-subject span{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #979797;
+    margin-left: 1rem;
+}
+.personal .subject .select-subject select{
+    width: 30%;
+    height: 60%;
+    margin-left: 1rem;
+    background: #E6E6E6;
+    border-radius: 15.5px;
+    padding-left: 1rem;
+    outline:  none;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+.subject-teacher{
+    margin-top: 3rem !important;
+}  
+.personal .subject .select-subject input{
+    margin-left: 1rem;
+    height: 90%;
+    width: 50%;
+    border: none;
+    outline: none;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1D39C4;
+}
+.document{
+    height: 35%;
+    flex-direction: column;
+    overflow-y: scroll;
+    margin: 3rem auto;
+}
+.document .list{
+    height: 78px;
+    border: 1px solid rgba(29, 57, 196, 0.16);
+    box-sizing: border-box;
+}
+.document .list .l1{
+    margin-left: 2rem;
+}
+.document .list .l2{
+    margin-right: 2rem;
+}
+.document .list .l1 .name{
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+.document .list .l1 .name h1{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.document .list .l1 .name span{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #979797;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    display: block;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E0EBF9;
+    border-radius: 15px;
+}

@@ -1,0 +1,25 @@
+.page-container {
+    background: #1D39C4;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header {
+    height: 12%;
+}
+
+header .tittle-page {
+    font-size: 24px;
+    padding-top: 9%;
+    width: 85%;
+    margin: 0 auto;
+    font-family: "quickSanBold";
+    display: flex;
+}
+
+.page-content {
+    height: 88%;
+    padding-top: 8em;
+}

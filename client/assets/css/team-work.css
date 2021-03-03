@@ -1,0 +1,17 @@
+header {
+    height: 12%;
+}
+
+header .tittle-page {
+    font-size: 24px;
+    color: black;
+    padding-top: 9%;
+    width: 85%;
+    margin: 0 auto;
+    font-family: "quickSanBold";
+    display: flex;
+}
+.page-container{
+
+    background-repeat: no-repeat;
+}

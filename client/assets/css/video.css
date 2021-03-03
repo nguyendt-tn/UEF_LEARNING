@@ -1,0 +1,110 @@
+header {
+    background: #1d39c4;
+    border-radius: 0 0 31px 31px;
+    color: white;
+    padding: 4% 6% 0 6%;
+    height: 26%;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  } /* hidden scrollbar*/
+  
+  .info-user {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    text-align: center;
+    height: 58%;
+  }
+  
+  .page-name {
+    font-family: poppinsBold;
+    font-size: 30px;
+    padding-left: 7%;
+    align-self: flex-end;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 41%;
+    padding-top: 3.5%;
+  }
+  
+  .search input {
+    background: rgba(196, 196, 196, 0.15);
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 3.5% 4% 3.5% 15%;
+    margin-right: 6%;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: 7%;
+    font-family: "quickSan";
+  }
+  .search input::placeholder {
+    color: white;
+    font-family: quickSan;
+    opacity: 0.8;
+  }
+  
+  .page-content {
+    padding: 7% 0 0 0;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "quickSan";
+    font-size: 12px;
+    overflow-y: scroll;
+    height: 64%;
+  }
+  
+  .page-content .video {
+    margin-bottom: 7%;
+  }
+  
+  .page-content .video iframe {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .page-content .video .posts-info {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: start;
+  }
+  
+  .page-content .video .posts-info_content {
+    padding: 2% 3% 0 3%;
+  }
+  
+  footer {
+    height: 10%;
+  }
+  
+  footer a {
+    color: #979797;
+  }
+  .menu-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0% 6% 0 7%;
+    border-top: 1px solid rgba(29, 57, 196, 0.16);
+    color: #979797;
+    font-family: "quickSanSemi";
+    font-size: 12px;
+    height: 90%;
+  }
+  
+  .item_menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  

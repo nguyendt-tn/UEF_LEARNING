@@ -1,0 +1,145 @@
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#container {
+    height: 100vh;
+    position:relative;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.course{
+    height: 10%;
+}
+.header{
+    margin-left: 1.5rem;
+}
+.header .back{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.header .back h1{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+.header .back span{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #979797;
+}
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:10%;  
+}
+.footer ul {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+.footer ul a li p{
+    margin-top: .4rem;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #979797;
+}
+.option{
+    height: 15%;
+}
+.option .two-option{
+    padding-top: 5rem;
+}
+.option .two-option div{
+    height: 100%;
+    width: 100%;
+}
+.option .two-option div span{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.underline-option{
+    border-bottom: solid 4px #1D39C4;
+}
+.document{
+    height: 53%;
+    flex-direction: column;
+    overflow-y: scroll;
+    margin: 3rem auto;
+}
+.document .list{
+    height: 78px;
+    border: 1px solid rgba(29, 57, 196, 0.16);
+    box-sizing: border-box;
+}
+.document .list .l1{
+    margin-left: 2rem;
+}
+.document .list .l2{
+    margin-right: 2rem;
+}
+.document .list .l1 .name{
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+.document .list .l1 .name h1{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.document .list .l1 .name span{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #979797;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    display: block;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E0EBF9;
+    border-radius: 15px;
+}

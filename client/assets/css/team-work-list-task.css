@@ -1,0 +1,127 @@
+header {
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+}
+
+header .tittle-page {
+    font-size: 24px;
+    color: black;
+    padding-top: 9%;
+    width: 85%;
+    margin: 0 auto;
+    font-family: "quickSanBold";
+    display: flex;
+}
+
+header .teacher-name {
+    display: flex;
+    align-items: center;
+    color: #1D39C4;
+    font-family: 'quickSanSemi';
+    font-size: 14px;
+}
+
+.page-content {
+    height: 78%;
+    font-family: quickSanSemi;
+    overflow-y: scroll;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    margin-bottom: 10%;
+
+}
+
+.deadline {
+    margin-bottom: 4%;
+    color: #979797;
+    font-size: 14px;
+}
+
+.task-write {
+    padding: 6%;
+}
+
+.task-write .name {
+    display: flex;
+    margin-bottom: 4%;
+
+}
+
+.task-write .task-text {
+    margin-bottom: 4%;
+}
+
+.task-write .task-btn {
+    align-items: center;
+}
+
+.task-write .name p,
+.task-write .task-text p {
+    font-family: 'quickSanBold';
+    font-size: 16px;
+    margin-right: 3%;
+}
+
+
+.task-write .name textarea {
+    flex-grow: 1;
+}
+
+.task-write .task-text textarea {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.task-write .task-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.task-write .task-btn div {
+    display: flex;
+    align-items: center;
+}
+
+.task-write .task-btn .btn {
+    background: #1D39C4;
+    box-shadow: 0px 3px 5px #E9F0FF;
+    border-radius: 10px;
+    padding: 4% 7%;
+    color: white;
+}
+
+footer {
+    height: 10%;
+}
+
+footer a {
+    color: #979797;
+}
+
+.menu-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0% 6% 0 7%;
+    border-top: 1px solid rgba(29, 57, 196, 0.16);
+    color: #979797;
+    font-family: "quickSanSemi";
+    font-size: 12px;
+    height: 90%;
+}
+
+.item_menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}

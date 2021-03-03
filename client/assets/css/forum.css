@@ -1,0 +1,308 @@
+.page-container {
+    background: white;
+    height: 100vh;
+    width: 100%;
+
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    align-items: center;
+}
+
+header .tittle-page {
+    font-size: 24px;
+    color: black;
+    width: 85%;
+    margin: 0 auto;
+    font-family: "quickSanBold";
+    display: flex;
+}
+
+header .questions-write {
+    width: 54px;
+    height: 54px;
+    background: rgba(29, 57, 196, 0.09);
+    border-radius: 50%;
+}
+
+footer {
+    height: 10%;
+}
+
+footer a {
+    color: #979797;
+}
+
+.menu-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0% 6% 0 7%;
+    border-top: 1px solid rgba(29, 57, 196, 0.16);
+    color: #979797;
+    font-family: "quickSanSemi";
+    font-size: 12px;
+    height: 90%;
+}
+
+.item_menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.page-container {
+    background: white;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    align-items: center;
+}
+
+header .tittle-page {
+    font-size: 24px;
+    color: black;
+    width: 85%;
+    margin: 0 auto;
+    font-family: "quickSanBold";
+    display: flex;
+}
+
+header .questions-write {
+    width: 54px;
+    height: 54px;
+    background: rgba(29, 57, 196, 0.09);
+    border-radius: 50%;
+}
+
+.page-content {
+    height: 78%;
+    overflow-y: scroll;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 20px;
+    color: #000000;
+    font-family: 'quickSanBold';
+}
+
+.content {
+    border: 1px solid rgba(29, 57, 196, 0.5);
+    border-radius: 41px 0px 40px;
+    padding: 2em;
+    margin-bottom: 3em;
+}
+
+.text {
+    margin: 0.5em 0;
+    line-height: 23px;
+}
+
+.deadline {
+    display: flex;
+    justify-content: space-between;
+    color: #979797;
+    font-size: 12px;
+    font-family: 'quickSanSemi';
+}
+
+
+.text p {
+    font-family: 'quickSanBold';
+    font-size: 16px;
+    margin-right: 3%;
+}
+
+
+footer {
+    height: 10%;
+}
+
+footer a {
+    color: #979797;
+}
+
+.menu-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0% 6% 0 7%;
+    border-top: 1px solid rgba(29, 57, 196, 0.16);
+    color: #979797;
+    font-family: "quickSanSemi";
+    font-size: 12px;
+    height: 90%;
+}
+
+.item_menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+a {
+    color: black;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.page-container {
+    background: white;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    align-items: center;
+}
+
+header .tittle-page {
+    font-size: 24px;
+    color: black;
+    width: 85%;
+    margin: 0 auto;
+    font-family: "quickSanBold";
+    display: flex;
+}
+
+header .questions-write {
+    width: 54px;
+    height: 54px;
+    background: rgba(29, 57, 196, 0.09);
+    border-radius: 50%;
+}
+
+.page-content {
+    height: 78%;
+    overflow-y: scroll;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 20px;
+    color: #000000;
+    font-family: 'quickSanBold';
+}
+
+.content {
+    border: 1px solid rgba(29, 57, 196, 0.5);
+    border-radius: 41px 0px 40px;
+    padding: 2em;
+    margin-bottom: 3em;
+}
+
+.text {
+    margin: 0.5em 0;
+    line-height: 23px;
+}
+
+.deadline {
+    display: flex;
+    justify-content: space-between;
+    color: #979797;
+    font-size: 12px;
+    font-family: 'quickSanSemi';
+}
+
+
+.text p {
+    font-family: 'quickSanBold';
+    font-size: 16px;
+    margin-right: 3%;
+}
+
+/* menu-question */
+.overlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(151, 151, 151, 0.3);
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+}
+
+.top {
+    top: 0% !important;
+}
+
+.overlay .opt {
+    background: #FFFFFF;
+    border-radius: 41px 41px 0 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70%;
+    text-align: center;
+    line-height: 2.5;
+    padding: 1em 0;
+    font-size: 20px;
+    font-family: 'quickSanBold';
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.btn div {
+    background: #1D39C4;
+    box-shadow: 0px 3px 5px #E9F0FF;
+    border-radius: 10px;
+    width: 66px;
+    height: 36px;
+}
+
+footer {
+    height: 10%;
+}
+
+footer a {
+    color: #979797;
+}
+
+.menu-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0% 6% 0 7%;
+    border-top: 1px solid rgba(29, 57, 196, 0.16);
+    color: #979797;
+    font-family: "quickSanSemi";
+    font-size: 12px;
+    height: 90%;
+}
+
+.item_menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}

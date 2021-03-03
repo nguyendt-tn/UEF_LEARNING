@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent; 
+}
+
+body {
+    line-height: 1;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+a:active, a:hover {outline: 0;}
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+*/
+
+button, input, optgroup, select, textarea {
+   font-family: inherit; /* 1 */
+   font-size: 100%; /* 1 */
+   line-height: 1.15; /* 1 */
+   margin: 0; /* 2 */
+   outline: none;
+   background-color: transparent;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+*/
+
+pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pointer{cursor: pointer;}
+.vue-notification-template{
+    height: 85px !important;
+    margin-top: 1rem !important;
+}
+.notification-title{
+    height: 40% !important;
+    font-family: Quicksand !important;
+    font-size: 15px !important;
+}
+.notification-content{
+    height: 60% !important;
+    font-size: 15px !important;
+}
+@font-face{ src: url(font/Quicksand-SemiBold.ttf); font-family: quickSanSemi;}
+@font-face{ src: url(font/Quicksand-Bold.ttf); font-family: quickSanBold;}
+@font-face{ src: url(font/Poppins-Bold.ttf); font-family: poppinsBold;}
+@font-face{ src: url(font/Quicksand-Medium.ttf); font-family: quickSan;}
+@font-face{src: url(font/FredokaOne-Regular.ttf); font-family: quickSanRegular;}
+footer {
+    height: 10%;
+  }
+  
+  footer a {
+    color: #979797;
+  }
+  .menu-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0% 6% 0 7%;
+    border-top: 1px solid rgba(29, 57, 196, 0.16);
+    color: #979797;
+    font-family: "quickSanSemi";
+    font-size: 12px;
+    height: 90%;
+}
+  
+.item_menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+  

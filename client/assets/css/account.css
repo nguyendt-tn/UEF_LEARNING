@@ -1,0 +1,101 @@
+.page-title {
+    padding: 8% 10% 0 10%;
+    color: white;
+    font-family: poppinsBold;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 17%;
+  }
+  
+  .page-content {
+    background: white;
+    border-radius: 51px 51px 0 0;
+    position: relative;
+    padding: 20% 0 0 12%;
+    font-family: "quickSanSemi";
+    font-size: 16px;
+    height: 73%;
+  }
+  
+  .select-avatar {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: -10%;
+    font-family: "quickSanSemi";
+    color: #979797;
+    width: 100%;
+    height: 20%;
+  }
+  
+  .select-avatar .icon_add-avatar {
+    position: absolute;
+    z-index: 2;
+    left: 77%;
+    bottom: 10%;
+  }
+  
+  .info-user {
+    height: 12%;
+  }
+  
+  .info-user span {
+    color: #1d39c4;
+    font-size: 19px;
+    margin-right: 5%;
+  }
+  
+  .signout {
+    margin-left: -14%;
+  }
+  .signout button {
+    width: 85%;
+    padding: 3.5% 0;
+    background: #1d39c4;
+    margin: 0 7.5%;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  footer {
+    height: 10%;
+    background: white;
+  }
+  
+  footer a {
+    color: #979797;
+  }
+  .menu-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0% 6% 0 7%;
+    border-top: 1px solid rgba(29, 57, 196, 0.16);
+    color: #979797;
+    font-family: "quickSanSemi";
+    font-size: 12px;
+    height: 90%;
+  }
+  
+  .item_menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  .notifi-number {
+    position: absolute;
+    top: 0;
+    right: -40%;
+    font-size: 13px;
+    color: white;
+    width: 18px;
+    height: 18px;
+    background: #E2423E;
+    border-radius: 10px;
+    font-family: 'quickSanSemi';
+}
+  

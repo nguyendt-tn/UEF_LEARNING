@@ -1,0 +1,87 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* hidden scrollbar*/
+.page-container {
+    background: white;
+    height: 100vh;
+    width: 100%;
+
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 12%;
+}
+
+header .tittle-page {
+    font-size: 24px;
+    color: black;
+    padding-top: 9%;
+    width: 85%;
+    margin: 0 auto;
+    font-family: "quickSanBold";
+    display: flex;
+}
+
+.page-content {
+    height: 78%;
+    overflow-y: scroll;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 20px;
+    color: #000000;
+    font-family: 'quickSanBold';
+}
+
+.content {
+    border: 1px solid rgba(29, 57, 196, 0.5);
+    border-radius: 41px 0px 40px;
+    padding: 2em;
+    line-height: 25px;
+    margin-bottom: 3em;
+}
+
+.content span {
+    font-family: quickSan;
+    font-size: 14px;
+}
+
+.teacher-avatar {
+    height: 140px;
+}
+
+.teacher-avatar img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    height: 10%;
+}
+
+footer a {
+    color: #979797;
+}
+
+.menu-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0% 6% 0 7%;
+    border-top: 1px solid rgba(29, 57, 196, 0.16);
+    color: #979797;
+    font-family: "quickSanSemi";
+    font-size: 12px;
+    height: 90%;
+}
+
+.item_menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
